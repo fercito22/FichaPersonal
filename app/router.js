@@ -7,6 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('about');
+  this.route('contact');
+  this.route('alquiler');
+  this.route('ruta-formacion-academica');
 });
 
 export default Router;

@@ -1,0 +1,19 @@
+@import "miestilo.css";
+@import "estilo.css";
+
+.div1{
+    color:red;
+}
+.div2{
+    color:blueviolet;
+}
+.div3{
+    color:yellowgreen;
+}
+.prueba_estilo{
+    color: greenyellow;
+    background: brown;
+}
+
+
+

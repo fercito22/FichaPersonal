@@ -1,0 +1,44 @@
+.cuerpo{
+    border:2px solid #000000;
+    border-radius:5px;
+    padding: 5px;
+    width: 60%;
+    }
+    .cuerpo:hover{
+    background:burlywood;
+    color: #ffffff;
+    }
+    .primerTexto{
+    font-size:14px;
+    }
+    .primerTexto:hover{
+    color:red;
+    }
+    .segundoTexto{
+    background:blueviolet;
+    font-size:12px;
+    border-bottom: 2px solid #000000;
+    }
+    .segundoTexto:hover{
+    background:rgb(122, 226, 122);
+    color:rgb(6, 123, 128);
+    font-size:15px;
+    border: 2px solid red;
+    }
+
+    .sumaTexto{
+        background:gray;
+        font-size:12px;
+        border-bottom: 4px solid #000000;
+        border-radius:5px;
+        margin-top: 10px;
+        padding: 15px;
+        width: 60%;
+        }
+    .sumaTexto:hover{
+        background:rgb(122, 226, 122);
+        color:rgb(6, 123, 128);
+        font-size:15px;
+        border: 2px solid red;
+        border-radius:5px;
+        }

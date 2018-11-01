@@ -1,0 +1,40 @@
+{{#each webapidata3 as |item3|}}
+<div class="row">
+    <div class="col-md-6">
+        <li class="clearfix">
+            <span class="title">Nombre: {{item3.NombreContacto}}</span>
+        </li>
+    </div>
+    <div class="col-md-6">
+        <li class="clearfix">
+            <span class="title">Direccion: {{item3.Direccion}}</span>
+        </li>
+    </div>
+</div> 
+<div class="row">
+    <div class="col-md-6">
+        <li class="clearfix">
+            <span class="title">Telefono Domicilio: {{item3.TelefonoDomicilio}}</span>
+        </li>
+    </div>
+    <div class="col-md-6">
+        <li class="clearfix">
+            <span class="title">Telefono Celular: {{item3.NroCelular}}</span>
+        </li>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <li class="clearfix">
+            <span class="title">Relacion: {{item3.Relacion}}</span>
+        </li>
+    </div>
+    <div class="col-md-6">
+        <li class="clearfix">
+            <span class="title">Direccion Trabajo: {{item3.DireccionTrabajo}}</span>
+        </li>
+    </div>
+</div>    
+
+    
+{{/each}}
